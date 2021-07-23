@@ -1,0 +1,150 @@
+/*----------------- página inicial -----------------*/
+/*formatação menu link*/
+a:link{
+    color: rgb(13, 112, 107);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(13, 112, 107);
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    color: rgb(13, 112, 107);
+}
+.menu{
+    list-style: none;
+    display: inline;
+    color: rgb(13, 112, 107);
+    font-size: 22px;
+}
+/*apresentação*/
+.inicio{  
+    margin-top: 200px;  
+    font-size: 70px;
+    color: rgb(13, 112, 107);
+    text-align: center;    
+}
+/*cores*/
+body{
+    background-color: ivory;
+}
+/*organização listas*/
+.list1{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.list2{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.list3{
+    list-style-type: none; 
+    margin-left: 50px;   
+}
+h3{
+    margin-left: 50px;
+}
+/* organização estrelas*/
+.stars {
+    padding-right: 20px;
+}
+/* organização minha foto*/
+.imagem{
+    text-align: center;
+}
+
+/*------------------- contato -------------------*/
+/*----- formulário -----*/
+form {
+    background-color: rgba(131, 141, 151, 0.411);
+    color: rgb(13, 112, 107);
+    /* centralizar o form na página */
+    align-items: right;
+    margin-top: 0x;
+    margin-left: 650px;
+    width: 400px;
+    /* ver as bordas do formulário */
+    padding:25px;
+    border: 3px solid rgb(13, 112, 107);
+    border-radius: 25px;
+    align-items: right;
+}
+form div + div {
+    margin-top: 20px;
+}
+label {
+    /*labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea {
+    /* todos os campos de texto têm as mesmas configurações
+     de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 20px sans-serif;
+    background-color: ivory;
+
+    /* mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid rgb(13, 112, 107);
+}
+input:focus, textarea:focus {
+    /* destaque nos elementos ativos */
+    border-color: rgb(13, 112, 107);
+}
+textarea {
+    /* alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* dar espaço suficiente para digitar algum texto */
+    height: 130px;
+
+    /* permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+.button {
+    /* posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+}
+button {
+    /* margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: 250px;
+    background-color: rgb(13, 112, 107);
+    color: ivory;
+    border-bottom: rgb(13, 112, 107);
+    border-color: rgb(13, 112, 107);
+    border-radius: 3px;
+}
+/*----- links -----*/
+.infopessoais{
+    font-size: 20px;
+    color: rgb(13, 112, 107);
+    vertical-align: left;
+}
+figure{
+   margin: 0px;
+   margin-top: 20px;
+   margin-left: 20px;
+}
+.informacoes{
+    margin-top: 100px;
+}
+/*----------------- portfólio -----------------*/
+.links-portfolio{
+    float: left; 
+    padding: 10px;
+    border: rgb(13, 112, 107) 3px solid; 
+    background-color: rgba(128, 128, 128, 0.295);
+    width: 350px; 
+    height: 350px;
+    margin: 10px;
+}
+
+
+

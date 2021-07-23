@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Camila da Rosa Hostin - Contato</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <!--link fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Oswald', sans-serif;
+            font-size: 18px;
+            color: lightseagreen;
+        }
+    </style>
+    <style>
+        body {
+            background-image: url("../img/fundo.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: top;
+        }
+    </style>
+</head>
+
+<body>
+    <!--faz links de navegação-->
+    <section>
+        <div>
+            <nav>
+                <p class="menu">
+                    <a href="../index.html">Home</a>
+                    <a href="portfólio.html">Portfólio</a>
+                    Contato
+                </p>
+            </nav>
+        </div>
+    </section>
+
+    <div class="informacoes">
+        <section class="infopessoais" style="float: left;">           
+            <figure>
+                <a href="https://www.linkedin.com/in/camiladarosahostin/" target="_blank">
+                    <img src="../img/linkedin.png" alt="logo linkedin" width="50px"></a>
+                <figurecaption><b>LinkedIn</b></figurecaption>
+            </figure>
+            <figure>
+                <a href="https://github.com/camila-hostin" target="_blank">
+                    <img src="../img/github.png" alt="logo github" width="65px"></a>
+                <figurecaption><b>GitHub</b></figurecaption>
+            </figure>
+            
+            <figure>
+                <img src="../img/email.png" alt="logo email" width="40px">
+                <figurecaption><b>hostin.camila@gmail.com</b></figurecaption>
+            </figure>
+            <figure>
+                <a href="https://www.instagram.com/camilarhostin/" target="_blank">
+                    <img src="../img/instagram.png" alt="logo instagram" width="40px"></a>
+                <figurecaption><b>Instagram</b></figurecaption>
+            </figure>
+        </section>
+
+        <form action="/index.html">
+            <div>
+                <label for="name"><b>Nome: </b></label>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <label for="mail"><b>E-mail:</b></label>
+                <input type="email" id="mail" />
+            </div>
+            <div>
+                <label for="msg"><b>Mensagem: </b></label>
+                <textarea id="msg"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit"><b>Enviar</b></button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
